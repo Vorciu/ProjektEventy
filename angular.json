@@ -29,7 +29,7 @@
             ],
             "scripts": [
               "./node_modules/materialize-css/dist/js/materialize.js"
-            ],
+            ]
           },
           "configurations": {
             "production": {
@@ -122,6 +122,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "projekt-eventy"
+    }
+  },
+  "defaultProject": "projekt-eventy",
+  "cli": {
+    "analytics": "0816a0e4-965b-4d30-ab9d-865b1b990cb9"
+  }
 }
