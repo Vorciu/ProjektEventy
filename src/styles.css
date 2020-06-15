@@ -1,0 +1,106 @@
+body {
+	font-family: 'Times New Roman';
+	font-size:18px;
+	line-height: 22px;
+	color:blue;
+	max-width: 1920px;
+	border:1px red solid;
+	margin:0 auto;
+	padding: 0;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	background: #e6e6e6;
+}
+
+
+
+a{
+	text-decoration: none;
+
+}
+
+
+a:hover{
+
+}
+
+
+h1{
+	font-weight: 700;
+	font-size:30px;
+	line-height:35px;
+	color:green;
+	margin:0 0 20px 0;
+	padding:0;
+	display:block;
+}
+
+
+
+#container{
+	width:100%;
+	max-width: 1345px;
+	margin: 0 auto;
+	padding: 0;
+	background: white;
+}
+
+
+header{
+	display:block;
+	width:100%;	
+	border:1px green solid;
+	position:relative;
+	background: #ffffff;
+}
+
+
+nav{
+	display:inline-block;
+	width:100%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+nav, nav ul {
+	margin: 0;
+	padding: 0;
+} 
+
+nav ul li{
+	display:inline-block;
+	float:left;
+	margin:0 5px;
+}
+
+nav ul li a{
+	display: block;
+	font-size:16px;
+	text-align: center;
+	color:white;
+	padding:0 20px;
+}
+
+nav ul li a:hover{
+	background:yellow;
+}
+
+#container .main{
+	display: block;
+	margin: 35px 0;
+	padding: 0 10px;
+}
+
+footer{
+	background: black;
+	color:white;
+	min-height: 200px;
+}
+
+
+@media only screen and (max-width: 1345px){
+	#container{
+		width: auto;
+		margin: 0 3%;
+	}
+}
