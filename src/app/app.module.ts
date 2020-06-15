@@ -8,6 +8,8 @@ import { navComponent } from './nav/app.navComponent';
 import { contentAreaComponent } from './contentArea/app.contentAreaComponent';
 import { footerComponent } from './footer/app.footerComponent';
 import { eventyComponent } from './eventy/app.eventyComponent';
+import { kontoComponent } from './konto/app.kontoComponent';
+import { kontaktComponent } from './kontakt/app.kontaktComponent';
 
 @NgModule({
   declarations: [
@@ -17,6 +19,8 @@ import { eventyComponent } from './eventy/app.eventyComponent';
     contentAreaComponent, 
     footerComponent,
     eventyComponent,
+    kontoComponent,
+    kontaktComponent,
   ],
   imports: [
     BrowserModule,
@@ -27,7 +31,17 @@ import { eventyComponent } from './eventy/app.eventyComponent';
     	path: 'eventy', 
     	component: eventyComponent
     	},
-      
+
+      {
+      path: 'konto', 
+      component: kontoComponent
+      },
+
+      {
+      path: 'kontakt', 
+      component: kontaktComponent
+      },
+
     	{
     	path: '',
     	component: contentAreaComponent
