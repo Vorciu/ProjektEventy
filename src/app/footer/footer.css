@@ -1,7 +1,7 @@
 footer{
 	display: block;
 	width: calc(100%-40px);
-	background-color:yellow;
+	background-color:black;
 }
 
 footer .foot{
