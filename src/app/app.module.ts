@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 //import { AppRoutingModule } from './app-routing.module';
 
+import { FormsModule }   from '@angular/forms';
+
 import { HttpClientModule } from '@angular/common/http';
 //import { NewsApiService } from './news-api.service';
 
@@ -54,6 +56,7 @@ import { kontaktComponent } from './kontakt/app.kontaktComponent';
     MatListModule,
     MatProgressSpinnerModule,
     MatFormField,*/
+    FormsModule,
 
     RouterModule.forRoot([
 
