@@ -4,6 +4,6 @@ import { Component } from '@angular/core';
   templateUrl: 'konto.html',
   styleUrls: ['konto.css']
 })
+// tslint:disable-next-line: class-name
 export class kontoComponent {
-
 }
