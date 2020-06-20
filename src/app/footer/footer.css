@@ -1,0 +1,11 @@
+footer{
+	display: block;
+	width: calc(100%-40px);
+	background-color:black;
+}
+
+footer .foot{
+	font-size:16px;
+	color:white;
+	text-align:right;
+}

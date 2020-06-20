@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
+import { Component,ViewEncapsulation } from '@angular/core';
 
 @Component({
+  encapsulation: ViewEncapsulation.None,
   templateUrl: 'konto.html',
   styleUrls: ['konto.css']
 })

@@ -11,8 +11,11 @@
   },
   "private": true,
   "dependencies": {
+<<<<<<< HEAD
     "@angular/animations": "~9.1.11",
     "@angular/cdk": "^9.2.4",
+=======
+>>>>>>> 6a463d4d06f8fa2cf60edf5ff0db7852aebc85e0
     "@angular/common": "~9.1.11",
     "@angular/compiler": "~9.1.11",
     "@angular/core": "~9.1.11",
@@ -21,6 +24,7 @@
     "@angular/platform-browser": "~9.1.11",
     "@angular/platform-browser-dynamic": "~9.1.11",
     "@angular/router": "~9.1.11",
+    "json-server": "^0.16.1",
     "materialize-css": "^1.0.0",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
